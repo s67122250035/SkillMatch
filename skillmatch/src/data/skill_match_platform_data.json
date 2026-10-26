@@ -1,0 +1,931 @@
+{
+  "skill_categories": {
+    "skill_cat_001": {
+      "name": "Software Development",
+      "description": "Programming and web/app development skills",
+      "icon_url": "https://example.com/images/categories/skill_cat_001.webp"
+    },
+    "skill_cat_002": {
+      "name": "Design",
+      "description": "UI/UX and visual design skills",
+      "icon_url": "https://example.com/images/categories/skill_cat_002.webp"
+    },
+    "skill_cat_003": {
+      "name": "Marketing",
+      "description": "Digital marketing and content skills",
+      "icon_url": "https://example.com/images/categories/skill_cat_003.webp"
+    },
+    "skill_cat_004": {
+      "name": "Data and Analytics",
+      "description": "Data analysis and business intelligence skills",
+      "icon_url": "https://example.com/images/categories/skill_cat_004.webp"
+    },
+    "skill_cat_005": {
+      "name": "Sales and Customer Service",
+      "description": "Customer-facing and sales skills",
+      "icon_url": "https://example.com/images/categories/skill_cat_005.webp"
+    }
+  },
+  "skills": {
+    "skill_001": {
+      "category_id": "skill_cat_001",
+      "name": "JavaScript"
+    },
+    "skill_002": {
+      "category_id": "skill_cat_001",
+      "name": "React"
+    },
+    "skill_003": {
+      "category_id": "skill_cat_001",
+      "name": "Python"
+    },
+    "skill_004": {
+      "category_id": "skill_cat_001",
+      "name": "SQL"
+    },
+    "skill_005": {
+      "category_id": "skill_cat_001",
+      "name": "Git"
+    },
+    "skill_006": {
+      "category_id": "skill_cat_002",
+      "name": "Figma"
+    },
+    "skill_007": {
+      "category_id": "skill_cat_002",
+      "name": "UI/UX Design"
+    },
+    "skill_008": {
+      "category_id": "skill_cat_002",
+      "name": "Adobe Photoshop"
+    },
+    "skill_009": {
+      "category_id": "skill_cat_002",
+      "name": "Illustration"
+    },
+    "skill_010": {
+      "category_id": "skill_cat_003",
+      "name": "Content Writing"
+    },
+    "skill_011": {
+      "category_id": "skill_cat_003",
+      "name": "SEO"
+    },
+    "skill_012": {
+      "category_id": "skill_cat_003",
+      "name": "Social Media Marketing"
+    },
+    "skill_013": {
+      "category_id": "skill_cat_003",
+      "name": "Google Ads"
+    },
+    "skill_014": {
+      "category_id": "skill_cat_004",
+      "name": "Excel"
+    },
+    "skill_015": {
+      "category_id": "skill_cat_004",
+      "name": "Data Analysis"
+    },
+    "skill_016": {
+      "category_id": "skill_cat_004",
+      "name": "Power BI"
+    },
+    "skill_017": {
+      "category_id": "skill_cat_004",
+      "name": "Data Visualization"
+    },
+    "skill_018": {
+      "category_id": "skill_cat_005",
+      "name": "Communication"
+    },
+    "skill_019": {
+      "category_id": "skill_cat_005",
+      "name": "Customer Service"
+    },
+    "skill_020": {
+      "category_id": "skill_cat_005",
+      "name": "Negotiation"
+    }
+  },
+  "companies": {
+    "company_001": {
+      "name": "TechNova Solutions",
+      "email": "hr@technova.example.com",
+      "description": "Software house building web and mobile products for SMEs",
+      "website": "https://technova.example.com",
+      "logo_url": "https://example.com/images/companies/company_001.webp",
+      "verified": true,
+      "industry": "ซอฟต์แวร์และเทคโนโลยี",
+      "size": "50-100 คน",
+      "address": "สีลม กรุงเทพฯ",
+      "tagline": "สร้างผลิตภัณฑ์ดิจิทัลที่ SME ใช้งานได้จริง",
+      "perks": [
+        "ทำงานแบบ Hybrid",
+        "Mentor ทุกคน",
+        "ห้องเกม & Snack Bar",
+        "ซื้อหนังสือเทคได้ไม่อั้น"
+      ],
+      "cover_url": ""
+    },
+    "company_002": {
+      "name": "Bright Design Studio",
+      "email": "jobs@brightdesign.example.com",
+      "description": "Boutique design studio specializing in branding and product design",
+      "website": "https://brightdesign.example.com",
+      "logo_url": "https://example.com/images/companies/company_002.webp",
+      "verified": true,
+      "industry": "ออกแบบและครีเอทีฟ",
+      "size": "10-30 คน",
+      "address": "อารีย์ กรุงเทพฯ",
+      "tagline": "สตูดิโอออกแบบที่เชื่อว่าดีไซน์ดี ๆ เปลี่ยนธุรกิจได้",
+      "perks": [
+        "เวลาทำงานยืดหยุ่น",
+        "Mac & iPad ให้ใช้",
+        "ทริปออกแบบประจำปี",
+        "สตูดิโอสไตล์โฮมมี่"
+      ],
+      "cover_url": ""
+    },
+    "company_003": {
+      "name": "Bloom Digital Marketing",
+      "email": "careers@bloomdigital.example.com",
+      "description": "Full-service digital marketing agency",
+      "website": "https://bloomdigital.example.com",
+      "logo_url": "https://example.com/images/companies/company_003.webp",
+      "verified": true,
+      "industry": "การตลาดดิจิทัล",
+      "size": "30-60 คน",
+      "address": "พระราม 9 กรุงเทพฯ",
+      "tagline": "ทุกแคมเปญต้องวัดผลได้ และต้องสนุกด้วย",
+      "perks": [
+        "งบเรียนคอร์สออนไลน์",
+        "Work from Home 2 วัน",
+        "คอมมิชชันตามผลงาน",
+        "ปาร์ตี้ทีมทุกไตรมาส"
+      ],
+      "cover_url": ""
+    },
+    "company_004": {
+      "name": "DataWise Analytics",
+      "email": "jobs@datawise.example.com",
+      "description": "Data analytics consultancy for retail and finance clients",
+      "website": "https://datawise.example.com",
+      "logo_url": "https://example.com/images/companies/company_004.webp",
+      "verified": true,
+      "industry": "ข้อมูลและวิเคราะห์ธุรกิจ",
+      "size": "20-50 คน",
+      "address": "สาทร กรุงเทพฯ",
+      "tagline": "เปลี่ยนข้อมูลจำนวนมากให้เป็นการตัดสินใจที่ชัดเจน",
+      "perks": [
+        "ใบรับรอง Power BI/Azure ฟรี",
+        "ทำงาน Hybrid",
+        "ทีม Data Scientist เป็นพี่เลี้ยง",
+        "โบนัสตามผลงาน"
+      ],
+      "cover_url": ""
+    },
+    "company_005": {
+      "name": "Sunrise Retail Group",
+      "email": "hr@sunriseretail.example.com",
+      "description": "Retail chain hiring customer-facing and sales roles",
+      "website": "https://sunriseretail.example.com",
+      "logo_url": "https://example.com/images/companies/company_005.webp",
+      "verified": false,
+      "industry": "ค้าปลีก",
+      "size": "500+ คน",
+      "address": "ศรีราชา ชลบุรี",
+      "tagline": "ใกล้ชิดลูกค้า เติบโตไปด้วยกันทั้งทีม",
+      "perks": [
+        "ส่วนลดพนักงาน",
+        "รถรับ-ส่งพนักงาน",
+        "ค่าคอมมิชชันยอดขาย",
+        "เส้นทางเลื่อนตำแหน่งชัดเจน"
+      ],
+      "cover_url": ""
+    },
+    "company_006": {
+      "name": "CloudPeak Systems",
+      "email": "talent@cloudpeak.example.com",
+      "description": "Cloud infrastructure and enterprise software company",
+      "website": "https://cloudpeak.example.com",
+      "logo_url": "https://example.com/images/companies/company_006.webp",
+      "verified": true,
+      "industry": "คลาวด์และระบบองค์กร",
+      "size": "100-200 คน",
+      "address": "แจ้งวัฒนะ นนทบุรี",
+      "tagline": "โครงสร้างพื้นฐานคลาวด์ที่เสถียรสำหรับองค์กรไทย",
+      "perks": [
+        "ใบรับรอง AWS/GCP ฟรี",
+        "ประกันสุขภาพกลุ่ม",
+        "Hybrid 3 วัน/สัปดาห์",
+        "Tech Talk ทุกเดือน"
+      ],
+      "cover_url": ""
+    }
+  },
+  "jobs": {
+    "job_001": {
+      "company_id": "company_001",
+      "title": "Frontend Developer Intern",
+      "type": "internship",
+      "location": "Bangkok",
+      "description": "Build UI components for client web apps using React",
+      "required_skill_ids": [
+        "skill_001",
+        "skill_002",
+        "skill_005"
+      ],
+      "salary_min": 8000,
+      "salary_max": 12000,
+      "status": "open",
+      "posted_at": "2026-06-01",
+      "image_url": "https://example.com/images/jobs/job_001.webp",
+      "work_mode": "hybrid",
+      "openings": 2,
+      "responsibilities": [
+        "พัฒนา UI Component ด้วย React ตาม Design ที่ได้รับ",
+        "เชื่อมต่อ REST API ที่ทีม Backend เตรียมไว้",
+        "เขียน Git Commit และเปิด Pull Request ให้ทีมรีวิว"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-11-15"
+    },
+    "job_002": {
+      "company_id": "company_001",
+      "title": "Backend Developer (Junior)",
+      "type": "full_time",
+      "location": "Bangkok",
+      "description": "Develop and maintain REST APIs for internal platforms",
+      "required_skill_ids": [
+        "skill_003",
+        "skill_004",
+        "skill_005"
+      ],
+      "salary_min": 22000,
+      "salary_max": 28000,
+      "status": "open",
+      "posted_at": "2026-06-02",
+      "image_url": "https://example.com/images/jobs/job_002.webp",
+      "work_mode": "hybrid",
+      "openings": 1,
+      "responsibilities": [
+        "พัฒนา API ด้วย Python และออกแบบ Query SQL",
+        "ดูแลและปรับปรุงประสิทธิภาพฐานข้อมูล",
+        "ร่วม Code Review และเขียน Unit Test"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-11-30"
+    },
+    "job_003": {
+      "company_id": "company_006",
+      "title": "Full Stack Developer Intern",
+      "type": "internship",
+      "location": "Nonthaburi",
+      "description": "Support both frontend and backend teams on a cloud dashboard product",
+      "required_skill_ids": [
+        "skill_001",
+        "skill_002",
+        "skill_003"
+      ],
+      "salary_min": 9000,
+      "salary_max": 13000,
+      "status": "open",
+      "posted_at": "2026-06-03",
+      "image_url": "https://example.com/images/jobs/job_003.webp",
+      "work_mode": "hybrid",
+      "openings": 2,
+      "responsibilities": [
+        "พัฒนาฟีเจอร์ทั้งฝั่ง React และ Python API",
+        "ทดสอบและแก้ไขข้อบกพร่องร่วมกับทีม",
+        "เรียนรู้ Deployment บน Cloud กับพี่เลี้ยง"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-12-15"
+    },
+    "job_004": {
+      "company_id": "company_006",
+      "title": "QA Tester (Junior)",
+      "type": "full_time",
+      "location": "Nonthaburi",
+      "description": "Test and document bugs for enterprise software releases",
+      "required_skill_ids": [
+        "skill_003",
+        "skill_004"
+      ],
+      "salary_min": 20000,
+      "salary_max": 25000,
+      "status": "open",
+      "posted_at": "2026-06-04",
+      "image_url": "https://example.com/images/jobs/job_004.webp",
+      "work_mode": "onsite",
+      "openings": 1,
+      "responsibilities": [
+        "เขียน Test Case และทดสอบระบบก่อนส่งมอบ",
+        "รายงานและติดตามบั๊กจนปิดงาน",
+        "เขียน Script ทดสอบอัตโนมัติด้วย Python"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-12-31"
+    },
+    "job_005": {
+      "company_id": "company_002",
+      "title": "UI/UX Designer Intern",
+      "type": "internship",
+      "location": "Bangkok",
+      "description": "Assist senior designers with wireframes and prototypes",
+      "required_skill_ids": [
+        "skill_006",
+        "skill_007"
+      ],
+      "salary_min": 8000,
+      "salary_max": 11000,
+      "status": "open",
+      "posted_at": "2026-06-05",
+      "image_url": "https://example.com/images/jobs/job_005.webp",
+      "work_mode": "hybrid",
+      "openings": 2,
+      "responsibilities": [
+        "ออกแบบ Wireframe และ Prototype ด้วย Figma",
+        "ช่วยทำ User Research และสรุปผล",
+        "ร่วม Design Review กับทีมพัฒนา"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-11-20"
+    },
+    "job_006": {
+      "company_id": "company_002",
+      "title": "Graphic Designer (Junior)",
+      "type": "full_time",
+      "location": "Bangkok",
+      "description": "Create visual assets for branding and marketing campaigns",
+      "required_skill_ids": [
+        "skill_008",
+        "skill_009"
+      ],
+      "salary_min": 18000,
+      "salary_max": 23000,
+      "status": "open",
+      "posted_at": "2026-06-06",
+      "image_url": "https://example.com/images/jobs/job_006.webp",
+      "work_mode": "onsite",
+      "openings": 1,
+      "responsibilities": [
+        "ออกแบบสื่อโฆษณาและ Brand Material ให้ลูกค้า",
+        "ตกแต่งภาพด้วย Photoshop และงาน Illustration",
+        "จัดไฟล์งานส่งพิมพ์และส่งขึ้นสื่อออนไลน์"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-11-15"
+    },
+    "job_007": {
+      "company_id": "company_002",
+      "title": "Product Designer Intern",
+      "type": "internship",
+      "location": "Bangkok",
+      "description": "Design end-to-end product flows with the design team",
+      "required_skill_ids": [
+        "skill_006",
+        "skill_007",
+        "skill_009"
+      ],
+      "salary_min": 9000,
+      "salary_max": 12000,
+      "status": "closed",
+      "posted_at": "2026-05-20",
+      "image_url": "https://example.com/images/jobs/job_007.webp",
+      "work_mode": "hybrid",
+      "openings": 1,
+      "responsibilities": [
+        "ร่วมออกแบบผลิตภัณฑ์ตั้งแต่ Idea จน Prototype",
+        "สร้าง Illustration และ Icon สำหรับ UI",
+        "ทดสอบการใช้งานกับผู้ใช้จริงและปรับปรุง"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-11-30"
+    },
+    "job_008": {
+      "company_id": "company_003",
+      "title": "Content Writer (Junior)",
+      "type": "full_time",
+      "location": "Bangkok",
+      "description": "Write articles and web copy for client campaigns",
+      "required_skill_ids": [
+        "skill_010",
+        "skill_011"
+      ],
+      "salary_min": 17000,
+      "salary_max": 21000,
+      "status": "open",
+      "posted_at": "2026-06-07",
+      "image_url": "https://example.com/images/jobs/job_008.webp",
+      "work_mode": "hybrid",
+      "openings": 1,
+      "responsibilities": [
+        "เขียนบทความ บล็อก และคอนเทนต์สำหรับแบรนด์ลูกค้า",
+        "วิจัย Keyword และเขียนให้ติดอันดับ SEO",
+        "ตรวจทานและปรับสำนวนให้ตรงกับ Tone of Voice"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-12-15"
+    },
+    "job_009": {
+      "company_id": "company_003",
+      "title": "Social Media Marketing Intern",
+      "type": "internship",
+      "location": "Bangkok",
+      "description": "Plan and schedule content across social platforms",
+      "required_skill_ids": [
+        "skill_012",
+        "skill_013"
+      ],
+      "salary_min": 7000,
+      "salary_max": 10000,
+      "status": "open",
+      "posted_at": "2026-06-08",
+      "image_url": "https://example.com/images/jobs/job_009.webp",
+      "work_mode": "hybrid",
+      "openings": 2,
+      "responsibilities": [
+        "วางแผนและโพสต์คอนเทนต์ลง Facebook/Instagram/TikTok",
+        "ช่วยตั้งค่าและติดตามผล Google Ads",
+        "สรุป Insight ประจำสัปดาห์ให้ทีม"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-12-31"
+    },
+    "job_010": {
+      "company_id": "company_003",
+      "title": "SEO Specialist (Junior)",
+      "type": "full_time",
+      "location": "Bangkok",
+      "description": "Optimize client websites for search performance",
+      "required_skill_ids": [
+        "skill_011",
+        "skill_015"
+      ],
+      "salary_min": 19000,
+      "salary_max": 24000,
+      "status": "open",
+      "posted_at": "2026-06-09",
+      "image_url": "https://example.com/images/jobs/job_010.webp",
+      "work_mode": "hybrid",
+      "openings": 1,
+      "responsibilities": [
+        "ทำ SEO Audit และวางแผนปรับปรุงเว็บไซต์ลูกค้า",
+        "วิเคราะห์ข้อมูลทราฟฟิกและรายงานผล",
+        "ประสานทีมคอนเทนต์และทีมพัฒนาเพื่อแก้ปัญหา"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-11-20"
+    },
+    "job_011": {
+      "company_id": "company_004",
+      "title": "Data Analyst Intern",
+      "type": "internship",
+      "location": "Bangkok",
+      "description": "Clean and analyze retail sales data for client reports",
+      "required_skill_ids": [
+        "skill_014",
+        "skill_015",
+        "skill_016"
+      ],
+      "salary_min": 9000,
+      "salary_max": 13000,
+      "status": "open",
+      "posted_at": "2026-06-10",
+      "image_url": "https://example.com/images/jobs/job_011.webp",
+      "work_mode": "hybrid",
+      "openings": 2,
+      "responsibilities": [
+        "เตรียมและทำความสะอาดข้อมูลด้วย Excel",
+        "สร้าง Dashboard ด้วย Power BI",
+        "สรุปผลวิเคราะห์ให้ทีมเข้าใจง่าย"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-11-15"
+    },
+    "job_012": {
+      "company_id": "company_004",
+      "title": "Business Intelligence Analyst (Junior)",
+      "type": "full_time",
+      "location": "Bangkok",
+      "description": "Build dashboards and reports for business stakeholders",
+      "required_skill_ids": [
+        "skill_015",
+        "skill_016",
+        "skill_017"
+      ],
+      "salary_min": 23000,
+      "salary_max": 29000,
+      "status": "open",
+      "posted_at": "2026-06-11",
+      "image_url": "https://example.com/images/jobs/job_012.webp",
+      "work_mode": "hybrid",
+      "openings": 1,
+      "responsibilities": [
+        "ออกแบบ Dashboard และ KPI สำหรับลูกค้า",
+        "เชื่อมต่อแหล่งข้อมูลและสร้าง Data Model",
+        "นำเสนอ Insight ให้ผู้บริหารลูกค้า"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-11-30"
+    },
+    "job_013": {
+      "company_id": "company_004",
+      "title": "Data Entry and Analytics Assistant",
+      "type": "internship",
+      "location": "Bangkok",
+      "description": "Support the analytics team with data entry and basic reporting",
+      "required_skill_ids": [
+        "skill_014",
+        "skill_015"
+      ],
+      "salary_min": 7500,
+      "salary_max": 10000,
+      "status": "open",
+      "posted_at": "2026-06-12",
+      "image_url": "https://example.com/images/jobs/job_013.webp",
+      "work_mode": "onsite",
+      "openings": 2,
+      "responsibilities": [
+        "บันทึกและตรวจสอบความถูกต้องของข้อมูล",
+        "สร้างรายงานสรุปด้วย Excel",
+        "ช่วยทีม Analyst เตรียมข้อมูลสำหรับวิเคราะห์"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-12-15"
+    },
+    "job_014": {
+      "company_id": "company_005",
+      "title": "Customer Service Representative",
+      "type": "full_time",
+      "location": "Chonburi",
+      "description": "Handle customer inquiries and support requests in-store and by phone",
+      "required_skill_ids": [
+        "skill_018",
+        "skill_019"
+      ],
+      "salary_min": 15000,
+      "salary_max": 18000,
+      "status": "open",
+      "posted_at": "2026-06-13",
+      "image_url": "https://example.com/images/jobs/job_014.webp",
+      "work_mode": "onsite",
+      "openings": 3,
+      "responsibilities": [
+        "ตอบข้อสงสัยลูกค้าทั้งหน้าร้านและทางโทรศัพท์",
+        "แก้ปัญหาและติดตามเรื่องร้องเรียนจนจบ",
+        "บันทึกข้อมูลลูกค้าเข้าระบบ CRM"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-12-31"
+    },
+    "job_015": {
+      "company_id": "company_005",
+      "title": "Sales Associate (Junior)",
+      "type": "full_time",
+      "location": "Chonburi",
+      "description": "Assist customers and meet monthly sales targets",
+      "required_skill_ids": [
+        "skill_018",
+        "skill_020"
+      ],
+      "salary_min": 15000,
+      "salary_max": 20000,
+      "status": "open",
+      "posted_at": "2026-06-14",
+      "image_url": "https://example.com/images/jobs/job_015.webp",
+      "work_mode": "onsite",
+      "openings": 3,
+      "responsibilities": [
+        "แนะนำสินค้าและปิดการขายหน้าร้าน",
+        "เจรจาต่อรองและดูแลลูกค้าประจำ",
+        "ดูแลสต็อกและการจัดวางสินค้า"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-11-20"
+    },
+    "job_016": {
+      "company_id": "company_005",
+      "title": "Retail Marketing Intern",
+      "type": "internship",
+      "location": "Chonburi",
+      "description": "Support in-store promotions and social media posts",
+      "required_skill_ids": [
+        "skill_012",
+        "skill_018"
+      ],
+      "salary_min": 7000,
+      "salary_max": 9000,
+      "status": "open",
+      "posted_at": "2026-06-15",
+      "image_url": "https://example.com/images/jobs/job_016.webp",
+      "work_mode": "onsite",
+      "openings": 2,
+      "responsibilities": [
+        "ช่วยวางแผนโปรโมชันและคอนเทนต์ของร้านสาขา",
+        "ดูแลเพจโซเชียลของสาขา",
+        "สรุปผลยอดขายหลังแคมเปญ"
+      ],
+      "benefits": [
+        "เบี้ยเลี้ยงรายเดือน",
+        "Mentor ดูแลใกล้ชิด",
+        "ใบรับรองการฝึกงาน",
+        "โอกาสบรรจุเป็นพนักงานประจำ"
+      ],
+      "deadline": "2026-11-15"
+    },
+    "job_017": {
+      "company_id": "company_001",
+      "title": "Software Developer (Junior)",
+      "type": "full_time",
+      "location": "Bangkok",
+      "description": "Build and maintain features across the product stack",
+      "required_skill_ids": [
+        "skill_001",
+        "skill_003",
+        "skill_004"
+      ],
+      "salary_min": 25000,
+      "salary_max": 32000,
+      "status": "open",
+      "posted_at": "2026-06-16",
+      "image_url": "https://example.com/images/jobs/job_017.webp",
+      "work_mode": "hybrid",
+      "openings": 2,
+      "responsibilities": [
+        "พัฒนาและดูแลระบบของลูกค้าด้วย JavaScript และ Python",
+        "ออกแบบและเขียนคำสั่ง SQL",
+        "ทำงานร่วมกับทีมในรูปแบบ Agile"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-11-30"
+    },
+    "job_018": {
+      "company_id": "company_004",
+      "title": "Junior Data Scientist",
+      "type": "full_time",
+      "location": "Bangkok",
+      "description": "Build predictive models for client business problems",
+      "required_skill_ids": [
+        "skill_003",
+        "skill_015",
+        "skill_016"
+      ],
+      "salary_min": 27000,
+      "salary_max": 34000,
+      "status": "open",
+      "posted_at": "2026-06-17",
+      "image_url": "https://example.com/images/jobs/job_018.webp",
+      "work_mode": "hybrid",
+      "openings": 1,
+      "responsibilities": [
+        "สร้างโมเดลวิเคราะห์ข้อมูลด้วย Python",
+        "ทำ Dashboard นำเสนอด้วย Power BI",
+        "สื่อสารผลวิเคราะห์ให้ทีมธุรกิจนำไปใช้"
+      ],
+      "benefits": [
+        "ประกันสังคม + ประกันสุขภาพ",
+        "โบนัสประจำปี",
+        "วันลาพักร้อนตามอายุงาน",
+        "งบอบรมพัฒนาทักษะ"
+      ],
+      "deadline": "2026-12-15"
+    }
+  },
+  "users": {
+    "user_001": {
+      "role": "graduate",
+      "name": "Napat S.",
+      "email": "napat.s@example.com",
+      "education": "B.Eng Computer Engineering, KMUTT",
+      "skill_ids": [
+        "skill_001",
+        "skill_002",
+        "skill_005"
+      ],
+      "resume_url": "https://example.com/resumes/user_001.pdf",
+      "avatar_url": "https://example.com/images/users/user_001.webp",
+      "created_at": "2026-05-01"
+    },
+    "user_002": {
+      "role": "graduate",
+      "name": "Suda P.",
+      "email": "suda.p@example.com",
+      "education": "B.F.A. Communication Design, Silpakorn University",
+      "skill_ids": [
+        "skill_006",
+        "skill_007",
+        "skill_009"
+      ],
+      "resume_url": "https://example.com/resumes/user_002.pdf",
+      "avatar_url": "https://example.com/images/users/user_002.webp",
+      "created_at": "2026-05-03"
+    },
+    "user_003": {
+      "role": "graduate",
+      "name": "Kritsada T.",
+      "email": "kritsada.t@example.com",
+      "education": "B.A. Marketing, Thammasat University",
+      "skill_ids": [
+        "skill_010",
+        "skill_011",
+        "skill_012"
+      ],
+      "resume_url": "https://example.com/resumes/user_003.pdf",
+      "avatar_url": "https://example.com/images/users/user_003.webp",
+      "created_at": "2026-05-05"
+    },
+    "user_004": {
+      "role": "graduate",
+      "name": "Ploy W.",
+      "education": "B.Sc. Statistics, Chulalongkorn University",
+      "email": "ploy.w@example.com",
+      "skill_ids": [
+        "skill_014",
+        "skill_015",
+        "skill_016"
+      ],
+      "resume_url": "https://example.com/resumes/user_004.pdf",
+      "avatar_url": "https://example.com/images/users/user_004.webp",
+      "created_at": "2026-05-08"
+    },
+    "user_005": {
+      "role": "graduate",
+      "name": "Anan C.",
+      "education": "B.B.A. Business Administration, Kasetsart University",
+      "email": "anan.c@example.com",
+      "skill_ids": [
+        "skill_018",
+        "skill_019",
+        "skill_020"
+      ],
+      "resume_url": "https://example.com/resumes/user_005.pdf",
+      "avatar_url": "https://example.com/images/users/user_005.webp",
+      "created_at": "2026-05-10"
+    }
+  },
+  "admins": {
+    "admin_001": {
+      "name": "Site Admin",
+      "email": "admin@platform.example.com",
+      "created_at": "2026-04-01"
+    }
+  },
+  "applications": {
+    "app_001": {
+      "job_id": "job_001",
+      "user_id": "user_001",
+      "status": "pending",
+      "applied_at": "2026-06-05"
+    },
+    "app_002": {
+      "job_id": "job_017",
+      "user_id": "user_001",
+      "status": "accepted",
+      "applied_at": "2026-06-18"
+    },
+    "app_003": {
+      "job_id": "job_005",
+      "user_id": "user_002",
+      "status": "pending",
+      "applied_at": "2026-06-06"
+    },
+    "app_004": {
+      "job_id": "job_007",
+      "user_id": "user_002",
+      "status": "rejected",
+      "applied_at": "2026-05-22"
+    },
+    "app_005": {
+      "job_id": "job_009",
+      "user_id": "user_003",
+      "status": "pending",
+      "applied_at": "2026-06-09"
+    },
+    "app_006": {
+      "job_id": "job_008",
+      "user_id": "user_003",
+      "status": "accepted",
+      "applied_at": "2026-06-08"
+    },
+    "app_007": {
+      "job_id": "job_011",
+      "user_id": "user_004",
+      "status": "pending",
+      "applied_at": "2026-06-11"
+    },
+    "app_008": {
+      "job_id": "job_018",
+      "user_id": "user_004",
+      "status": "pending",
+      "applied_at": "2026-06-18"
+    },
+    "app_009": {
+      "job_id": "job_014",
+      "user_id": "user_005",
+      "status": "accepted",
+      "applied_at": "2026-06-14"
+    },
+    "app_010": {
+      "job_id": "job_016",
+      "user_id": "user_005",
+      "status": "pending",
+      "applied_at": "2026-06-16"
+    }
+  },
+  "favorites": {
+    "user_001": {
+      "job_002": true,
+      "job_003": true
+    },
+    "user_002": {
+      "job_006": true
+    },
+    "user_004": {
+      "job_012": true,
+      "job_013": true
+    }
+  }
+}

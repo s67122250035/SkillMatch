@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "skill_categories": { ".read": true, ".write": false },
+    "skills": { ".read": true, ".write": false },
+    "companies": { ".read": true, ".write": "auth != null", ".indexOn": ["email"] },
+    "jobs": { ".read": true, ".write": "auth != null" },
+    "users": { ".read": "auth != null", ".write": "auth != null", ".indexOn": ["email"] },
+    "admins": { ".read": "auth != null", ".write": false, ".indexOn": ["email"] },
+    "applications": { ".read": "auth != null", ".write": "auth != null" },
+    "favorites": { ".read": "auth != null", ".write": "auth != null" }
+  }
+}
